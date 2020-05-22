@@ -1,7 +1,7 @@
 name: Push Test
 on:
   repository_dispatch:
-    types: [octokit-routes-release]
+    types: [push-test]
 
 jobs:
   pushTest:
