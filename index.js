@@ -10,7 +10,7 @@
 
       const auth = createAppAuth({
         id: process.env.TEST_APP_ID,
-        privateKey: process.env.TEST_APP_PRIVATE_KEY,
+        privateKey: process.env.TEST_APP_PRIVATE_KEY.replace(/\\n/g, "\n"),
       });
 
       const installationAuthentication = await auth({
