@@ -1,5 +1,5 @@
 (async () => {
-  for (let index = 0; index < 1000; index++) {
+  for (let index = 0; index < 10000; index++) {
     try {
       const { Octokit } = require("@octokit/core");
       const { createAppAuth } = require("@octokit/auth-app");
