@@ -9,7 +9,7 @@
   "author": "Gregor Martynus (https://twitter.com/gr2m)",
   "license": "MIT",
   "dependencies": {
-    "@octokit/auth-app": "^2.4.5",
+    "@octokit/auth-app": "https://github.pika.dev/octokit/auth-app.js/pr/85",
     "@octokit/core": "^2.5.3",
     "@octokit/plugin-enterprise-cloud": "^3.0.3",
     "@octokit/plugin-paginate-rest": "^2.2.1",
