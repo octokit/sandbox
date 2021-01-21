@@ -16,5 +16,10 @@
     "@octokit/plugin-retry": "^3.0.2"
   },
   "devDependencies": {},
-  "description": ""
+  "description": "",
+  "renovate": {
+    "extends": [
+      "github>octokit/.github"
+    ]
+  }
 }
