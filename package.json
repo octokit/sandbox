@@ -21,5 +21,6 @@
     "extends": [
       "github>octokit/.github"
     ]
-  }
+  },
+  "repository": "github:octokit/sandbox"
 }
