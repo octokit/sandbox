@@ -12,6 +12,7 @@ jobs:
       - uses: actions/setup-node@v2-beta
         with:
           node-version: "12"
+          cache: npm
       - run: npm ci
       - run: node index.js
         env:
