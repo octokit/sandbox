@@ -12,7 +12,7 @@
     "@octokit/auth-app": "https://github.pika.dev/octokit/auth-app.js/pr/85",
     "@octokit/core": "^5.0.0",
     "@octokit/plugin-enterprise-cloud": "^10.0.0",
-    "@octokit/plugin-paginate-rest": "^8.0.0",
+    "@octokit/plugin-paginate-rest": "^9.2.2",
     "@octokit/plugin-retry": "^6.0.0"
   },
   "release": {
